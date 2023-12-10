@@ -27,7 +27,7 @@ nav{
 }
 
 .logo{
-    width: 200px;
+    width: 150px;
 }
 
 nav ul li{
@@ -59,13 +59,11 @@ nav ul li a:hover::after{
 }
 
 .header-txt{
-    margin-left: 60px;
     margin-top: 10%;
-    font-size: 30px;
 }
 
 .header-txt h1{
-    margin-left: 80px;
+    margin-left: 40px;
     margin-top: 20px;
     font-size: 60px;
 }
