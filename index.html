@@ -1,3 +1,4 @@
+<!-- Made using tutorial from GreatStack https://youtu.be/0YFrGy_mzjY?si=1bS7xeAAcsK7NxPs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/logo-color.png" class="logo">
+            <a href="#header"><img src="images/logo-color.png" class="logo"></a>
             <ul>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -91,8 +92,8 @@
                 <img src="images/shopify-chatbot.png">
                 <div class="layer">
                     <h3>Shopify Chatbot</h3>
-                    <p>Idol Lookbook integrated chatbot that provides order tracking using Python
-                    and answers FAQ. Created with IBM Cloud.</p>
+                    <p>Shopify integrated customer service chatbot that provides order 
+                    tracking using Python Webhooks and answers FAQ. Created with IBM Cloud.</p>
                     <a href="https://shopidollookbook.com/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
@@ -108,8 +109,8 @@
                 <img src="images/stock-the-past.jpg">
                 <div class="layer">
                     <h3>StockThePast</h3>
-                    <p>Stock market simulator that allowed users to learn about 
-                    stock market trading.</p>
+                    <p>Stock market simulator that allows users to learn about
+                    and practice stock market trading.</p>
                     <a href="https://github.com/itsdavidhu/StockThePast"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
@@ -118,8 +119,25 @@
     </div>
 </div>
 
+<!--Contact-->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>hu.david.dh@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(647)-535-2937</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/davidhu8/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/itsdavidhu"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Resume_David_Hu.pdf" class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
-    
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents")
     function opentab(tabname){
@@ -132,8 +150,9 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
-
 </script>
+
 <script src="https://kit.fontawesome.com/c53c16f93c.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
