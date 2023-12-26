@@ -155,8 +155,8 @@ nav ul li a:hover::after{
 }
 
 /* Portfolio */
-#about{
-    padding: 80px 0;
+#portfolio{
+    padding: 50px 0;
     color: #4D7E3E
 }
 
@@ -245,6 +245,11 @@ nav ul li a:hover::after{
 }
 
 /* Contact */
+#contact{
+    padding: 50px 0;
+    color: #4D7E3E
+}
+
 .contact-left{
     flex-basis: 35%;
 }
