@@ -156,8 +156,7 @@ nav ul li a:hover::after{
 
 /* Portfolio */
 #portfolio{
-    padding: 80px 0;
-    color: #4D7E3E
+    padding: 50px 0;
 }
 
 .project-list{
@@ -245,11 +244,6 @@ nav ul li a:hover::after{
 }
 
 /* Contact */
-#contact{
-    padding: 80px 0;
-    color: #4D7E3E
-}
-
 .contact-left{
     flex-basis: 35%;
 }
