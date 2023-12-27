@@ -290,3 +290,82 @@ nav ul li a:hover::after{
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
+
+nav .fa-solid{
+    display: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px){
+    #header{
+        background-image: url(images/background-white-mobile.png);
+    }
+
+    .header-txt{
+        margin-top: 115%;
+        color: #FFFFFF;
+    }
+
+    .header-txt h1{
+        font-size: 25px;
+    }
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background-color: #4D7E3E;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul li a{
+        color: #FFFFFF;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        right: 107px;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .sub-title{
+        font-size: 40px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+
+    .about-col-2{
+        font-size: 14px;
+    }
+
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    .contact-left{
+        flex-basis: 100%;
+    }
+}
